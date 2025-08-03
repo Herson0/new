@@ -1,0 +1,43 @@
+html,body{
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #0c0c0c;
+
+}
+ #container{
+
+    width: 75%;
+    height: 110%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50px;
+    background: linear-gradient(55deg,#03f53b, #1a1a1a);
+ }
+ #image_container{
+
+    width: 90%;
+    height: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50px 100px 50px 100px;
+    background-color:aqua;
+    box-shadow: 10px 10px #000;
+
+    overflow: hidden;
+ }
+ #image{
+    border: 3px solid #000;
+    border-radius: 50px 100px 50px 100px;
+ }
